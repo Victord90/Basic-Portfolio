@@ -2,6 +2,30 @@ body {
     background-color: bisque;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: aquamarine;
+}
+
 .head {
     background-color: aliceblue;
     width: 100%;
@@ -14,20 +38,13 @@ body {
     position: absolute;
     }
 
-.your_name {
+#your_name {
     margin: 0 auto;
     text-align: center;
     padding: 20px;
     background-color: aqua;
     width: 20%;
 
-}
-
-.nav {
-    display: block;
-    float: right;
-    right: 0;
-    padding: 30px;
 }
 
 .info {
@@ -40,7 +57,7 @@ body {
     overflow: auto;
     }
 
-h2 {
+h1 {
     position: relative;
     float: left;
     padding: 20px;
@@ -72,4 +89,7 @@ p {
     height: 40px;
     text-align: center;
     background-color: aqua;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: black;
 }
