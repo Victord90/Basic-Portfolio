@@ -1,12 +1,13 @@
 body {
     background-color: bisque;
+    margin: 0;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
     background-color: aqua;
 }
 
@@ -20,6 +21,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    width: 100px;
 }
 
 li a:hover {
@@ -27,7 +29,7 @@ li a:hover {
 }
 
 .head {
-    background-color: aliceblue;
+    background-color: deepskyblue;
     width: 100%;
     border-bottom: 5px black;
     left: 0;
@@ -35,15 +37,19 @@ li a:hover {
     top: 0;
     border-bottom: solid;
     margin-bottom: 40px;
-    position: absolute;
+    position: relative;
     }
 
 #your_name {
-    margin: 0 auto;
     text-align: center;
     padding: 20px;
     background-color: aqua;
     width: 20%;
+    position: relative;
+    left: 0;
+    font-size: 26px;
+    font-weight: bold;
+
 
 }
 
@@ -55,6 +61,7 @@ li a:hover {
     margin: 50px auto;
     padding: 20px;
     overflow: auto;
+    background-image: url(dynamic-style/dynamic-style.png);
     }
 
 h1 {
@@ -67,7 +74,7 @@ h1 {
     width: 960px;
     text-align: left;
     border-bottom-style: solid;
-    border-bottom-width: 80%;
+    border-bottom-width: 100%;
     border-bottom-color: black;
 }
 
@@ -86,10 +93,10 @@ p {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 40px;
     text-align: center;
-    background-color: aqua;
+    background-color: deepskyblue;
     border-top-style: solid;
     border-top-width: 5px;
     border-top-color: black;
+    margin-bottom: 0;
 }
