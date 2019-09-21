@@ -6,6 +6,7 @@ body {
     margin: 50px auto;
 }
 
+
 input {
     width: 75%;
     display: inline-block;
@@ -20,13 +21,14 @@ input {
     overflow: auto;
 }
 
-#submit {
+.submit {
     width: 75%;
     background-color: deepskyblue;
     color: white;
 }
 
-input[type=submit] a:hover{
-    background-color: blue;
+input[type=submit]:hover{
+    background-color: lightskyblue;
     cursor: pointer;
+    
 }

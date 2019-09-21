@@ -52,7 +52,7 @@ li a:hover {
     left: 50px;
     bottom: 0;
     top: 46px;
-    font-size: 26px;
+    font-size: 36px;
     font-weight: bold;
 }
 
@@ -103,4 +103,5 @@ p {
     border-top-color: black;
     margin-bottom: 0;
     padding-top: 15px;
+    font-size: 20px;
 }
