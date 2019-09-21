@@ -4,6 +4,7 @@ body {
 
 .info {
     margin: 50px auto;
+    text-align: left;
 }
 
 
@@ -13,12 +14,14 @@ input {
     margin: 8px 0;
     padding: 12px 20px;
     font-size: 20px;
+    margin-left: 15px;
 }
 
 #message {
     width: 75%;
     height: 300px;
     overflow: auto;
+    margin-left: 15px;
 }
 
 .submit {
@@ -32,3 +35,4 @@ input[type=submit]:hover{
     cursor: pointer;
     
 }
+
