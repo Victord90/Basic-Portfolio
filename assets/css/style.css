@@ -1,5 +1,6 @@
 body {
-    background-color: bisque;
+    background-image: url(../images/map-of-the-world-2401458_1920.jpg);
+    background-size: cover;
     margin: 0;
 }
 
@@ -7,8 +8,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: auto;
-    background-color: aqua;
+    overflow: hidden;
+    background-color: lightgray;  
+    margin-left: 71.3%  
 }
 
 li {
@@ -17,18 +19,19 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    width: 100px;
+    width: 150px;
+    overflow: hidden;
 }
 
 li a:hover {
-    background-color: aquamarine;
+    background-color: deepskyblue;
 }
 
-.head {
+#head {
     background-color: deepskyblue;
     width: 100%;
     border-bottom: 5px black;
@@ -43,39 +46,37 @@ li a:hover {
 #your_name {
     text-align: center;
     padding: 20px;
-    background-color: aqua;
+    background-color: lightgray;
     width: 20%;
     position: relative;
-    left: 0;
+    left: 50px;
+    bottom: 0;
+    top: 46px;
     font-size: 26px;
     font-weight: bold;
-
-
 }
 
 .info {
     position: relative;
     text-align: center;
-    background-color: aliceblue;
+    background-image: url(../images/dynamic-style.png);
     width: 960px;
     margin: 50px auto;
     padding: 20px;
-    overflow: auto;
-    background-image: url(dynamic-style/dynamic-style.png);
+    overflow: hidden;
+    border: 3px solid black;
+    
     }
 
 h1 {
     position: relative;
     float: left;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 50px;
-    line-height: 45px;
     font-size: 36px;
-    width: 960px;
+    width: 95%;
     text-align: left;
-    border-bottom-style: solid;
-    border-bottom-width: 100%;
-    border-bottom-color: black;
+    border-bottom: 3px solid black;
 }
 
 #me {
@@ -83,6 +84,7 @@ h1 {
     position: relative;
     overflow: hidden;
     left: 5px;
+    padding-right: 15px;
 }
 
 p {
@@ -90,13 +92,15 @@ p {
 }
     
 #footer {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
     text-align: center;
     background-color: deepskyblue;
+    height: 50px;
     border-top-style: solid;
     border-top-width: 5px;
     border-top-color: black;
     margin-bottom: 0;
+    padding-top: 15px;
 }

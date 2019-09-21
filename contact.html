@@ -3,13 +3,14 @@
     <head>
         <title>Contact Me</title>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 
     </head>
 
 <body>
 
     <header>
-        <div class="head">
+        <div id="head">
             <div id="your_name">Victor Dominguez</div>
 
         <nav class="nav">
@@ -27,13 +28,13 @@
 
         <form>
             Name:<br>
-            <input type="text" name="full name"><br>
+            <input type="text" name="full name" placeholder="your name.."><br>
             Email:<br>
-            <input type="text" name="email"><br>
+            <input type="text" name="email" placeholder="your email.."><br>
             Message:<br>
-            <input type="text" name="message"><br>
+            <input id="message" type="text" name="message" placeholder="your message.."><br>
 
-            <button type="button" onclick="submit">Submit</button>
+            <input id="submit" type="submit" value="submit">
 
         </form>
 

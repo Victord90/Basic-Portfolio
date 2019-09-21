@@ -1,0 +1,32 @@
+body {
+    font-size: 20px;
+}
+
+.info {
+    margin: 50px auto;
+}
+
+input {
+    width: 75%;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 12px 20px;
+    font-size: 20px;
+}
+
+#message {
+    width: 75%;
+    height: 300px;
+    overflow: auto;
+}
+
+#submit {
+    width: 75%;
+    background-color: deepskyblue;
+    color: white;
+}
+
+input[type=submit] a:hover{
+    background-color: blue;
+    cursor: pointer;
+}
