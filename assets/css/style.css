@@ -87,6 +87,7 @@ h1 {
     overflow: hidden;
     left: 5px;
     padding-right: 15px;
+    margin-right: 10px;
 }
 
 p {
@@ -94,6 +95,7 @@ p {
     line-height: 1.8;
     text-align: left;
     text-indent: 50px;
+    padding-left: 10px;
 }
     
 #footer {
